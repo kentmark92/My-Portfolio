@@ -6,12 +6,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  align-item: center;
+
   width: 100%;
 }
 .navigation {
-  background-color: black;
-  border-bottom: 1px solid white;
+  background-color: #f1e0b0;
+  border-bottom: 0px solid white;
   padding: 20px;
   display: flex;
   text-align: center;
@@ -38,46 +38,45 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  align-item: center;
+  
   width: 100%;
-  background-image: linear-gradient(180deg, #C2c8c5, #dddddA);
+  background-image: linear-gradient(180deg, #fcf0cf, #f1e0b0);
 }
 #first-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-item: center;
+
   height: 600px;
   padding: 0px;
   margin: 0px;
   font-size: 30px;
   text-align: center;
-  background-image: linear-gradient(180deg, #C2c8c5, #dddddA);
+  background-image: linear-gradient(180deg, #fcf0cf, #f1e0b0);
   color:white;
   text-shadow:5px 2px 5px grey
 }
 #first-content h1 {
   display: flex;
   justify-content: center;
-  align-item: center;
+
   margin: 0px;
 }
 #first-content p {
   display: flex;
   justify-content: center;
-  align-item: center;
+
   margin: 0px;
 }
 
 #two-content {
   display: flex;
   flex-wrap: wrap;
-  align-item: center;
   align-content: center;
   justify-content: center;
   width: auto;
   height: auto;
-  background-image: linear-gradient(180deg, #C2c8c5, #dddddA);
+  background-image: linear-gradient(180deg, #fcf0cf, #f1e0b0);
   color: white;
   text-shadow:5px 2px 5px grey
 }
@@ -112,7 +111,7 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  align-item: center;
+ 
   width: 300px;
   height: auto;
   margin: 0px;
@@ -141,7 +140,7 @@ body {
   display: flex;
   justify-content: center;
   height: 10px;
-  align-item: center;
+
   margin: 10px 0 0 0;
   padding: 2px;
 }
@@ -151,7 +150,7 @@ body {
 #button {
   display: flex;
   justify-content: center;
-  align-item: center;
+
   margin: 10px;
   padding: 10px;
   width: 100%;
@@ -160,7 +159,7 @@ body {
 #button strong {
   display: flex;
   justify-content: center;
-  align-item: center;
+
   border: 0pxsolid;
   width: 100px;
   height: 25px;
@@ -178,8 +177,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-item: center;
-  background-image: linear-gradient(180deg, #C2c8c5, #dddddA);
+
+  background-image: linear-gradient(180deg, #fcf0cf, #f1e0b0);
   height: 400px;
   color:white;
   text-shadow:5px 2px 5px grey
@@ -187,7 +186,7 @@ body {
 #three-content h1 {
   display: flex;
   justify-content: center;
-  align-item: center;
+
   margin: 0px;
   margin-top: 20px;
 }
@@ -217,7 +216,7 @@ body {
 }
 
 #footer {
-  background-color: black;
+  background-color: #e6b655;
   color: white;
   display: inline-flex;
   justify-content: space-around;
